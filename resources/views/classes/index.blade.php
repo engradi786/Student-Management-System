@@ -1,4 +1,5 @@
-@extends('layouts.app')
+@extends('layouts.student')
+@section('title','Classes')
 @section('content')
-classes
+<h2>Hello World</h2>
 @endsection

@@ -11,7 +11,7 @@ class StudentController extends Controller
     }
 
     public function students(){
-        return view('dashboard.index');
+        return view('students.index');
     }
 
 }
