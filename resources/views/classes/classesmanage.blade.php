@@ -45,19 +45,55 @@
     </div>
 
     {{-- Main Content --}}
-    <div id="main-content" class="flex-grow-1" style="margin-left: 250px;">
-        <div class="container mt-4">
-            <div class="card shadow-sm">
-                <div class="card-header bg-primary text-white">Dashboard</div>
-                <div class="card-body" id="ajax-content">
-                    <h5>Welcome Back 👋</h5>
-                    <p>You are logged in successfully.</p>
-                </div>
-            </div>
-        </div>
-    </div>
+    <div class="flex-grow-1 p-4" style="margin-left: 250px;">
+        <h2>Manage Classes</h2>
+        <p>This is the Manage Classes page.</p>
 
-</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+ 
 
 
 @endsection

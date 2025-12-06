@@ -9,7 +9,7 @@ use App\Http\Controllers\MyPageController;
 use App\Http\Controllers\classesController;
 use App\Http\Controllers\AttendanceController;
 use App\Http\Controllers\dashboardController;
-
+use App\Http\Controllers\ClassManageController;
 
 //Route::get('/dashboard', [StudentController::class, 'dashboard'])->name('dashboard');
 Route::get('/classes',[classesController::class,'showClasses'])->name('classes');
@@ -20,3 +20,7 @@ Route::get('/index', [dashboardController::class, 'index'])->name('index');
 Route::get('/attendance', [App\Http\Controllers\AttendanceController::class, 'attendance'])->name('attendance');
 Route::get('/students', [StudentController::class, 'students'])->name('students');
 Route::get('/' , [LoginController::class, 'login'])->name('login');
+
+
+
+Route::get('classesmanage', [ClassManageController::class, 'classesmanage'])->name('classesmanage');
